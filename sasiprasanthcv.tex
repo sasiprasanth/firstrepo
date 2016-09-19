@@ -1,0 +1,138 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Bandaru}{Aditya Siva Sasi Prasanth}
+%\title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{IIT Kharagpur}%{India}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+91~7548~916~440}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{sasiprasanth17@iitkgp.ac.in}
+%\email{abhinavagarwal1996@gmail.com}                               % % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+\extrainfo{sasi.prasanth97@gmail.com\\(+91) 9933993517  }                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{July 2014 -present}{B.Tech in Electrical Engineering}{IIT Kharagpur}{}{}{CGPA - 9.35}  % arguments 3 to 6 can be left empty
+\cventry{March 2014}{12th Grade}{Board of Intermediate Education}{Andhra Pradesh}{}{Aggregate - 98.2\%}
+\cventry{March 2012}{10th Grade}{Board of Secondary Education}{Andhra Pradesh}{}{GPA - 9.2}
+
+
+%\section{Coursework}
+%\cventry{}{Relevant Courses}{}{}{}
+%{
+%Programming and Data Structures (with lab)\\
+%Algorithms (with lab)\\
+%Machine Learning\\
+%}
+
+
+\section{Achievements}
+
+ 
+\begin{itemize}%
+\item Department rank 6 (out of 115 students (approx))
+\item Pursuing a \textbf{minor} degree in Computer Science and Engineering
+\item Current minor CGPA 10.0 (6 credits cleared)
+\item Secured rank in top 0.02\% in JEE Mains 2014 (1.3M students (approx))
+\item Secured rank in top 0.6\% In JEE Advanced 2014 (0.15M students (approx))
+\item Achieved EX grade in Algorithms-I, Algorithms Laboratory, Maths-I, Maths-II, Transform Calculus, Physics-I, Electrical Machines, Analog Electronic Circuits
+\end{itemize}
+
+
+%\cvitem{}{Maths-1}
+%\cvitem{}{Maths-2}
+%\cvitem{}{Transform Calculus}
+%\cvitem{}{Programming and Data Structures}
+%\cvitem{}{Programming and Data Structures Lab}
+%\cvitem{}{Signals and Networks}
+%\cvitem{}{Programming and Data Structures}
+
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+
+\section{Experience}
+
+
+\subsection{NATURAL LANGUAGE PROCESSING PROJECT}
+\cventry{May 2016 -present}{"Text Segmentation: A Statistical Approach" under Professor Pawan Goyal, Dept of Computer Science, IIT Kharagpur}{}{}{}{
+ -based on text segmentation of sanskrit sentences and extracting semantic information of words.\\
+ -paper submitted for review in COLING 2016, a conference in NLP
+\begin{itemize}%
+\item created probability vectors for co-occurences of all possible combinations of unique sanskrit words from a corpus of 4.5 lakh sanskrit sentences.
+\item used open-source modules in pythons to create json objects which were the inputs for the algorithm used to create segmentations of sentences.
+\end{itemize}
+%\newline{}%
+}
+
+\subsection{OPENSOFT 2016}
+\cventry{Feb 2016}{An Inter-Hall software building competition held annually in IIT Kharagpur}{}{}{}{
+Our team built a software that could take pdf files containing graphical data as inputs and give the data points of the graphs as tables which could be downloaded as pdf files.
+\begin{itemize}%
+\item developed an algorithm to find the unit scale of graphs using Image Processing in opencv.
+\item worked on the user interface of the software in QtDesigner.
+\end{itemize}
+%\newline{}%
+}
+
+%\section{Languages}
+%\cvitemwithcomment{Language 1}{Skill level}{Comment}
+%\cvitemwithcomment{Language 2}{Skill level}{Comment}
+%\cvitemwithcomment{Language 3}{Skill level}{Comment}
+
+\section{Skills}
+\cvitem{Programming}{C, C++, Python, Java}%{}{}
+\cvitem{Web}{HTML, Javascript}
+\cvitem{Software}{Matlab, Pspice, Xilinx, Solidworks}
+\cvitem{Platforms}{Windows, Linux}
+
+
+
+
+
+\end{document}
+
+
+%% end of file `template.tex'.
