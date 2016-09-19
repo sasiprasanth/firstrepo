@@ -2,5 +2,4 @@ Learning something :)
 This line was edited online
 3rd line added
 
-4th line - offline retained
-line from master branch
+resolved local merge conflicts between local branches
