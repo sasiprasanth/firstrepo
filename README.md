@@ -16,7 +16,7 @@ Your working directory should be as follows
     * train_t7978754709018
   * Train_clique.py
   * test_clique.py
-  * all other python files provided
+  * all other python files and text files provided in the repo
   
 
 ## Prerequisites
