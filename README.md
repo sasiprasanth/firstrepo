@@ -61,6 +61,7 @@ For example:
 After finishing the testing please run the following command to see the precision and recall values for both the word and word++ prediction tasks
 
 * python evaluate.py <tag>
+ 
 For example: 
   * python evaluate.py BM2
 
