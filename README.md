@@ -8,8 +8,8 @@ Please download all the contents of this repository to your working directory
 Extract the rar files as folders into the working directory
 
 ### Prerequisites
-*Python3
-  *scipy
+* Python3
+  * scipy
 ## Running the tests
 
 Explain how to run the automated tests for this system
