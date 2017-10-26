@@ -19,7 +19,7 @@ Your working directory should be as follows
   * all other python files provided
   
 
-### Prerequisites
+## Prerequisites
 * Python3
   * scipy
   * numpy
@@ -46,3 +46,22 @@ PM2 | wordsegmentation/skt_dcs_DS.bz2_4K_pmi_mir_10K/
 PM3 | wordsegmentation/skt_dcs_DS.bz2_1L_pmi_mir_10K2/
 PR2 | wordsegmentation/skt_dcs_DS.bz2_4K_pmi_rfe_10K/
 PR3 | wordsegmentation/skt_dcs_DS.bz2_1L_pmi_rfe_10K/
+
+## Instructions for Testing
+After training, please modify the 'modelList' dictionary  in 'test_clique.py' with the name of the neural network that has been saved during training. While testing for a feature, please provide the name of the neural net which was trained
+for the same feature.
+
+To test with a particular feature vector use the tag of the feature while execution
+
+* python test_clique.py -t <tag>
+
+For example: 
+  * python test_clique.py -t BM2
+
+After finishing the testing please run the following command to see the precision and recall values for both the word and word++ prediction tasks
+
+* python evaluate.py <tag>
+For example: 
+  * python evaluate.py BM2
+
+
