@@ -23,7 +23,7 @@ Your working directory should be as follows
   * multiprocessing
   * bz2
 ## Instructions for Training
-
+Change your current directory to 'dir'
 
 Run the file Train_clique.py by using the following command
 
@@ -43,6 +43,7 @@ PR2 | wordsegmentation/skt_dcs_DS.bz2_4K_pmi_rfe_10K/
 PR3 | wordsegmentation/skt_dcs_DS.bz2_1L_pmi_rfe_10K/
 
 ## Instructions for Testing
+
 After training, please modify the 'modelList' dictionary  in 'test_clique.py' with the name of the neural network that has been saved during training. While testing for a feature, please provide the name of the neural net which was trained
 for the same feature.
 
