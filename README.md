@@ -4,7 +4,7 @@ This is the repo containing the codes, training-data and testing-data for word s
 
 ## Getting Started
 
-Please download all the contents of this repository to your working directory 
+Please download the 2 zip files of this repository to your working directory 
 Extract the rar files as folders into the working directory
 
 Your working directory should be as follows
@@ -12,12 +12,7 @@ Your working directory should be as follows
   * wordsegmentation
     * skt_dcs_DS.bz2_4K_bigram_mir_10K
     * skt_dcs_DS.bz2_4K_bigram_mir_heldout
-  * outputs
-    * train_t7978754709018
-  * Train_clique.py
-  * test_clique.py
-  * all other python files and text files provided in the repo
-  
+  * dir
 
 ## Prerequisites
 * Python3
