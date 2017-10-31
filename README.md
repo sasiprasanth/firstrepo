@@ -44,8 +44,9 @@ PR3 | wordsegmentation/skt_dcs_DS.bz2_1L_pmi_rfe_10K/
 
 ## Instructions for Testing
 
-After training, please modify the 'modelList' dictionary  in 'test_clique.py' with the name of the neural network that has been saved during training. While testing for a feature, please provide the name of the neural net which was trained
-for the same feature.
+After training, please modify the 'modelList' dictionary  in 'test_clique.py' with the name of the neural network that has been saved during training. While testing for a feature, please provide the name of the neural net which was trained for the same feature.
+
+If the name of the neural net is not changed, then the testing will be performed on the pre-trained model provided in outputs/train_t7978754709018
 
 To test with a particular feature vector use the tag of the feature while execution
 
